@@ -18,47 +18,16 @@
 <body>
     <div
         class="bg-background text-text left-0 top-0 w-screen h-screen overflow-hidden bg-center bg-no-repeat bg-cover flex flex-col items-center justify-center">
-        <svg class="absolute md:w-full md:h-full text-accent w-80 h-80" viewBox="0 0 1000 1000"
-            xmlns="http://www.w3.org/2000/svg">
-            <defs>
-                <clipPath id="c">
-                    <path fill="currentColor"
-                        d="M804.5 603.5Q747 707 642 707.5T450.5 722Q364 736 233 690.5T121 507q19-138 117.5-213.5t210.5-106q112-30.5 219.5 25T819 384q43 116-14.5 219.5Z" />
-                </clipPath>
-                <pattern id="a" patternUnits="userSpaceOnUse" width="25" height="25" viewBox="0 0 100 100"
-                    fill="currentColor">
-                    <circle cx="25" cy="25" r="8.333" />
-                    <circle cx="75" cy="75" r="8.333" />
-                </pattern>
-                <filter id="b" x="-50vw" y="-50vh" width="100vw" height="100vh">
-                    <feFlood flood-color="#fff" result="neutral-gray" />
-                    <feTurbulence type="fractalNoise" baseFrequency="2.5" numOctaves="100" stitchTiles="stitch"
-                        result="noise" />
-                    <feColorMatrix in="noise" type="saturate" values="0" result="destaturatedNoise" />
-                    <feComponentTransfer in="desaturatedNoise" result="theNoise">
-                        <feFuncA type="table" tableValues="0 0 0.25 0" />
-                    </feComponentTransfer>
-                    <feBlend in="SourceGraphic" in2="theNoise" mode="soft-light" result="noisy-image" />
-                </filter>
-            </defs>
-            <path fill="url(#a)"
-                d="M804.5 603.5Q747 707 642 707.5T450.5 722Q364 736 233 690.5T121 507q19-138 117.5-213.5t210.5-106q112-30.5 219.5 25T819 384q43 116-14.5 219.5Z"
-                transform="translate(-60 -60)" />
-            <g filter="url(#b)" clip-path="url(#c)">
-                <path fill="currentColor"
-                    d="M804.5 603.5Q747 707 642 707.5T450.5 722Q364 736 233 690.5T121 507q19-138 117.5-213.5t210.5-106q112-30.5 219.5 25T819 384q43 116-14.5 219.5Z" />
-            </g>
-        </svg>
-        <h1 class="text-text font-ubuntu font-medium md:text-8xl text-4xl drop-shadow-lg m-8">
-            UnrealForge<span class="text-primary">.</span>
+        <h1 class="text-text font-ubuntu font-medium md:text-4xl text-2xl drop-shadow-lg m-8">
+            UnrealForge<span class="text-accent">.</span>
         </h1>
         <h3
-            class="opacity-80 font-sans font-light text-xl md:visible md:relative invisible absolute text-center drop-shadow-lg">
-            Elevate Your Game
-            Hacking
-            Experience
-            with <span class="font-ubuntu font-semibold">UnrealForge</span>:<br>The
-            Ultimate SDK Generator for Unity and Unreal Engine based games.</h3>
+            class="italic opacity-50 font-mono font-normal text-xs md:visible md:relative invisible absolute text-center drop-shadow-lg">
+            The Ultimate SDK Generator for Unity and
+            Unreal
+            Engine based
+            games
+        </h3>
     </div>
 </body>
 
